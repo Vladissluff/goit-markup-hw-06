@@ -26,6 +26,13 @@
           <a href="./index.html" class="logo"
             >Web<span class="studio">Studio</span></a
           >
+
+          <button class="modal-menu-btn" type="button">
+            <svg class="menu-btn" width="24" height="24">
+              <use href="/images/icons.svg#icon-btn-menu"></use>
+            </svg>
+            </button>
+
           <ul class="header-nav">
             <li><a href="./index.html" class="current link">Studio</a></li>
             <li><a href="" class="link">Portfolio</a></li>
@@ -48,14 +55,14 @@
     </header>
     <main>
       <!-- Hero image -->
-      <section class="hero-image">
+      <section class="hero-image hide">
         <div class="container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
       <!-- Section 1 -->
-      <section class="benefits">
+      <section class="benefits hide">
         <div class="container">
           <h2 class="visually-hidden">benefits</h2>
           <ul class="benefits-ul">
@@ -111,7 +118,7 @@
         </div>
       </section>
       <!-- Section 2 -->
-      <section class="teams">
+      <section class="teams hide">
         <div class="container">
           <h2 class="teams-text">Our Team</h2>
           <ul class="team-ul">
@@ -306,7 +313,7 @@
         </div>
       </section>
       <!-- Section 3 -->
-      <section class="portfolio">
+      <section class="portfolio hide">
         <div class="container">
           <h2 class="portfolio-text">Our Portfolio</h2>
           <ul class="portfolio-ul">
@@ -429,7 +436,7 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer hide">
       <div class="container">
         <div class="footer-discription">
           <a href="./index.html" class="logo"
@@ -496,8 +503,8 @@
       </div>
     </footer>
     <!--modal-window-->
-    <div class="backdrop is-open">
-      <div class="modal">
+    <div class="backdrop ">
+      <div class="modal  ">
         <button class="close-button" type="button">
         <svg class="modal-button" width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
@@ -507,7 +514,7 @@
           Leave your contacts and we will call you back
         </p>
         <form class="modal-form">
-          <div class="modal-form-field">
+          <div class="modal-form-field ">
             <label class="modal-form-label" for="user-name">Name</label>
             <div class="modal-form-wrapper">
               <input 
@@ -580,9 +587,6 @@
   </form>
     </body>
 </html>
-
-
-
 
 
 

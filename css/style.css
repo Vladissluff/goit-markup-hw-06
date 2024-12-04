@@ -1,3 +1,7 @@
+.hide {
+  display: none;
+}
+
 body {
   background-color: white;
   font-family: "Roboto", sans-serif;
@@ -32,11 +36,26 @@ ol {
   padding: 0;
   list-style: none;
 }
-
+/* Mobile */
 .container {
-  width: 1158px;
-  margin: 0px auto;
-  padding: 0px 15px;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 320px;
+  margin: 0 auto;
+  max-width: 320px;
+}
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
 }
 
 .portfolio-text,
@@ -77,6 +96,21 @@ ol {
 
 .studio {
   color: #2e2f42;
+}
+
+.modal-menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .modal-menu-btn {
+    display: none;
+  }
 }
 
 .link {
@@ -156,12 +190,27 @@ ol {
 }
 
 .logo {
-  margin-right: 76px;
+  /* margin-right: 76px; */
+}
+
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin-right: 76px;
+  }
 }
 
 .header-nav,
 .address-nav {
-  gap: 40px;
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-nav,
+  .address-nav {
+    gap: 40px;
+    display: flex;
+    text-align: center;
+  }
 }
 
 .header-addresses {
@@ -698,4 +747,3 @@ input::placeholder {
   display: block;
   height: 56px;
 }
-
