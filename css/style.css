@@ -353,22 +353,26 @@ footer {
 }
 
 .hero-text {
-  max-width: 320px;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
-  letter-spacing: 0.02em;
+  line-height: 40px;
   text-align: center;
   color: #ffffff;
-  padding: 72px 52px;
+  letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-text {
-    max-width: 496px;
     font-size: 56px;
     line-height: 60px;
-    text-align: center;
+    margin-bottom: 36px;
+    width: 496px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .hero-text {
+    margin-bottom: 48px;
   }
 }
 
@@ -398,10 +402,7 @@ footer {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* benefits section*/
-.benefits footer {
-  padding: 96px 0px;
-}
+
 .benefits-ul {
   display: flex;
   flex-direction: column;
