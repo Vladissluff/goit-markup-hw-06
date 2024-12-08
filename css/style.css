@@ -283,8 +283,8 @@ footer {
 }
 /* Hero image section */
 .hero-image {
-  max-width: 1440px;
-  padding: 188px 0;
+  max-width: 320px;
+  padding: 72px 52px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -293,7 +293,6 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0 auto;
 }
 
 @media (min-resolution: 192dpi) {
