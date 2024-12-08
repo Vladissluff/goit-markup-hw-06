@@ -43,7 +43,6 @@ ol {
   margin: 0 auto;
 }
 
-.benefits,
 .teams,
 .portfolio,
 footer {
@@ -65,7 +64,7 @@ footer {
   .footer {
     padding: 100px 0;
   }
-  .benefits,
+
   .teams,
   .portfolio {
     padding: 120px 0;
@@ -240,7 +239,7 @@ footer {
     display: flex;
     width: auto;
     height: auto;
-    gap: 12px;
+
     padding-left: 120px;
     flex-wrap: wrap;
   }
@@ -293,6 +292,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0 auto;
 }
 
 @media (min-resolution: 192dpi) {
@@ -456,6 +456,7 @@ footer {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
+  color: #2e2f42;
 }
 
 @media only screen and (min-width: 1158px) {
